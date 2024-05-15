@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#store {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('/images/background2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.all-games {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 1vw;
+}
+
+.allGames {
+  width: 90vw;
+  height: 80vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+.all-games .allGames-div1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.7vw;
+}
+
+.game-div1-1 {
+  width: 100%;
+  height: 45%;
+  /* background-color: blue; */
+}
+
+.newGames {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 1vw;
+}
+
+.game1 {
+  width: 30%;
+  height: 74%;
+  transition: all ease .5s;
+}
+
+.game1:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: .5vw .5vw;
+  border: 1px solid yellow;
+  scale: 1;
+}
+
+.game-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-btn button {
+  padding: .6vw .8vw;
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  background-color: rgb(44, 44, 239);
+  color: #fff;
+}
+
+.game-btn button:hover {
+  background-color: rgb(18, 18, 234);
+  color: #fff;
+}
+
+.newGames img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.newGames h4 {
+  margin-top: .5vw;
+  text-align: center;
+  font-size: 1.4vw;
+  color: #fff;
+}
+
+.newGames p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: #ffff;
+}
+
+.game2 {
+  width: 30%;
+  height: 74%;
+  transition: all ease .5s;
+}
+
+.game2:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: .4vw 0.5vw;
+  border: 1px solid yellow;
+  scale: 1;
+}
+
+.game3 {
+  width: 30%;
+  height: 74%;
+  transition: all ease .5s;
+}
+
+.game3:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: .5vw .5vw;
+  border: 1px solid yellow;
+  scale: 1;
+}
+
+.game-div1-2 {
+  width: 100%;
+  height: 49%;
+
+}
+
+.all-games .allGames-div2 {
+  width: 48%;
+  height: 100%;
+  /* background-color: orchid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 1vw;
+  /* margin-top: 1vw; */
+}
+
+
+
+.permanentGame {
+  width: 100%;
+  height: 90%;
+  /* background-color: #999; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+
+.permanentGame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.permanentGame h4 {
+  margin-top: .5vw;
+  text-align: center;
+  font-size: 1.4vw;
+  color: #fff;
+}
+
+.permanentGame p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: #ffff;
+}
+
+/*-------------------------- Event Pack---------------------- */
+.game-div2-1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+}
+
+.event-pack {
+  width: 100%;
+  height: 90%;
+  /* background-color: aquamarine; */
+  margin-top: .8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+
+.event-game {
+  width: 50%;
+  height: 50%;
+  /* background-color: green; */
+  background: none;
+  transition: all ease .5s;
+}
+
+.event-game img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.event-game h4 {
+  margin-top: .5vw;
+  text-align: center;
+  font-size: 1.4vw;
+  color: #fff;
+}
+
+.event-game p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: #ffff;
+}
+
+.ALLGAME1 {
+  width: 90%;
+  height: 47%;
+  /* background-color: green; */
+}
+
+.ALLGAME2 {
+  margin-top: 4vw;
+  width: 90%;
+  height: 47%;
+}
+
+/* Swiper js------------------------------ */
+.swiper {
+  width: 100%;
+  height: 100%;
+  transition: all ease .5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  /* margin-top: .1vw; */
+  transition: all ease 1s;
+  /* background-color: red; */
+}
+
+.swiper-slide h4 {
+  margin-top: .5vw;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.swiper-slide:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  /* padding: 1vw 1vw; */
+  border: 1px solid yellow;
+  /* scale: 1; */
+}
+
+.swiper-button-next:after {
+  color: yellow;
+  font-size: .8vw;
+}
+
+@media screen and (width >300px) and (width < 768px) {
+  .allGames {
+    width: 150vw;
+    height: 70vh;
+  }
+
+  .newGames {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 90%; */
+    height: 200%;
+  }
+
+  .game1,
+  .game2,
+  .game3 {
+    /* width: 90%; */
+    height: 50%;
+    margin-top: 1vw;
+  }
+
+  .newGames img {
+    width: 90%;
+    height: 40%;
+    margin-top: 1.5vw;
+  }
+
+  .game-div1-1 h1 {
+    font-size: 4vw;
+  }
+
+  .newGames h4 {
+    margin-top: 1vw;
+    font-size: 4vw;
+  }
+
+  .newGames p {
+    font-size: 4vw;
+  }
+
+  .permanentGame {
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 80%;
+  }
+
+  .permanentGame img {
+    width: 100%;
+    height: 60%;
+    margin-top: 1vw;
+  }
+
+  .game-div1-2 h1 {
+    font-size: 3.5vw;
+  }
+
+  .permanentGame h4 {
+    font-size: 3vw;
+    margin-top: 1.5vw;
+  }
+
+  .permanentGame img {
+    width: 90%;
+  }
+
+  .swiper-button-next:after {
+    color: yellow;
+    margin-left: 6vw;
+    font-size: .4vw;
+    /* margin-left: 3vw; */
+  }
+
+
+  .permanentGame p {
+    font-size: 2vw;
+  }
+
+  .all-games .allGames-div2 {
+    width: 53%;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .swiper-slide img {
+    width: 80%;
+    height: 70%;
+  }
+
+  .allGames {
+    flex-direction: column;
+  }
+
+  .game-btn button {
+    font-size: 4vw;
+  }
+
+  .game-btn h1 {
+    font-size: 4vw;
+  }
+}
